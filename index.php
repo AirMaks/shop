@@ -74,11 +74,11 @@ require_once './products.php'; // Подключили файл с скрипт�
 
             <?php foreach ($products as $product) : ?>
                 <div class="card" align="center">
+                    <img src="<?php echo getImage($product)?>" alt="Card image cap">
+                   <h6 style="color: navy"><strong style="font-size: larger"><?php echo getName($product) ?></strong></h6>
+                    <span style="font-family: David"><strong style="color: crimson">From: $<?php echo getPrice($product) ?></strong></span>
+                    <a href="<?= $product['linkImage']?>"><p style="color: #491217"><strong style="color: #bd2130"> <?php echo getDescription($product) ?></strong></p></a>
 
-                    <a href="<?= $product['linkImage']?>"><h6 style="color: navy"><strong style="font-size: larger"> <?= $product['name'] ?></strong></h6></a>
-                    <span style="font-family: David"><strong style="color: crimson">From: $<?= $product['price'] ?></strong></span>
-                    <a href="<?= $product['linkImage']?>"><p style="color: #491217"><strong style="color: #bd2130"> <?= $product['description'] ?></strong></p></a>
-                    <a href="<?= $product['linkImage']?>"  target="_blank" ><img src="<?= $product['image'] ?>" ></a><br>
                     <a href="<?= $product['linkImage']?>" target="_blank" class="btn btn-outline-dark">Buy</a>
 
                 </div>

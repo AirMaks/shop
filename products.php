@@ -2,11 +2,11 @@
 //Название, Цена, Описание, Адрес для картинки, Адрес для ссылки при нажатии на кнопку(ссылку)
 $products = [
     ['Jeans', 100, 'Gucci', './images/jeans.jpg', 'https://www.gucci.com/int/en/'],
-    ['Штаны женские', 100, 'Штаны стильные', './img/2.png', 'https://yandex.ru'],
-    ['Мяч волейбольный', 100, 'Накачанный финским воздухом', './img/3.png', 'http://alabuga.ru'],
-    ['Джинсы', 100, 'Потертые, рвань', './img/4.png', 'https://mail.ru.com'],
-    ['Футболка', 100, 'Футбольная, с Роланду', './img/5.png', 'https://google.com'],
-    ['Мяч волейбольный', 100, 'Это другой мяч', './img/6.png', 'https://google.com'],
+    ['Dress', 200, 'Prada', './images/dress.jpg', 'http://www.prada.com/en.html?cc=WW'],
+    ['Sunglasses', 150, 'Ray Ban', './images/sunglasses.jpg', 'https://www.ray-ban.com/russia'],
+    ['Trainers', 200, 'Nike', './images/trainers.jpg', 'https://www.nike.com/ru/ru_ru/?ref=https%253A%252F%252Fwww.google.ru%252F'],
+    ['Smokings', 1000, 'Hugo Boss', './images/smokings.jpg', 'http://www.hugoboss.com/home'],
+    ['Watch', 100, 'Gucci', './images/watches.jpg', 'https://www.gucci.com/int/en/'],
 ];
 function getName($product)
 {
